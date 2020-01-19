@@ -23,6 +23,7 @@ public class Menu {
         drink2.ingredient3.quantity = 1;
         drink2.alcohol = false;
 
+
         float sumOfIngredients1 = drink1.ingredient1.quantity + drink1.ingredient2.quantity +
                 drink1.ingredient3.quantity;
         float sumOfIngredients2 = drink2.ingredient1.quantity + drink2.ingredient2.quantity +
@@ -33,11 +34,14 @@ public class Menu {
         System.out.println(drink1.ingredient2.name + " - " + drink1.ingredient2.quantity + " ml");
         System.out.println(drink1.ingredient3.name + " - " + drink1.ingredient3.quantity + " pieces");
         System.out.println("Drink has alcohol: " + drink1.alcohol +"\n");
+        System.out.println("Capacity: " + sumOfIngredients1 +"ml\n");
+
         System.out.println(drink2.name + " - " + drink2.price + " zł");
         System.out.println(drink2.ingredient1.name + " - " + drink2.ingredient1.quantity + " ml");
         System.out.println(drink2.ingredient2.name + " - " + drink2.ingredient2.quantity + " ml");
         System.out.println(drink2.ingredient3.name + " - " + drink2.ingredient3.quantity + " pieces");
         System.out.println("Drink has alcohol: " + drink2.alcohol);
+        System.out.println("Capacity: " + sumOfIngredients2 + "ml");
 
 
 
